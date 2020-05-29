@@ -67,7 +67,7 @@ class App extends Component {
 				<h1>{number}</h1>
 				{
 					loading 
-						? (<h2> 오류 발생!</h2>)
+						? (<h2> 로딩중...</h2>)
 						: (
 							error 
 								? (<h2>오류 발생!</h2>)
